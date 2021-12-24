@@ -1,0 +1,6 @@
+#ignore directories
+cmake-build-debug/
+
+#ignore filetypes
+*.swp
+*.swo
