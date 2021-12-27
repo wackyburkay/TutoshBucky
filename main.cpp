@@ -4,6 +4,9 @@
 #include "TutorialClasses/ConstantExample/ConstantExample.h"
 #include "TutorialClasses/MemberInitExample/MemberInitExample.h"
 #include "TutorialClasses/Templating/Templating.h"
+#include "TutorialClasses/OperatorOverload/OperatorOverload.h"
+#include "TutorialClasses/InheritanceExample/ParentClass.h"
+#include "TutorialClasses/InheritanceExample/ChildClass.h"
 
 int main() {
     //Recursion recursionObject;
@@ -32,8 +35,27 @@ int main() {
     //MemberInitExample mie(2,3);
     //mie.printVars();
 
-    Templating<int> tempInt(5);
-    Templating<double> tempDouble(4.789);
-    Templating<std::string> tempString("nope");
-    Templating<char> tempChar('x');
+    //Templating classlarin nasil calistigina dair ornek
+    //Templating<int> tempInt(5);
+    //Templating<double> tempDouble(4.789);
+    //Templating<std::string> tempString("nope");
+    //Templating<char> tempChar('x');
+
+    //Operatörler overload edilebilir.
+    //OperatorOverload a(5);
+    //OperatorOverload b(7);
+    //OperatorOverload c;
+    //c=a+b;
+    //std::cout << c.num << std::endl;
+
+    //Override in child class örnegi olan kod ve inheritance ornegi elbette. Ayrica child-parent arasi constructor
+    //iliskisi olayi da class iclerinde ornekler ile var canim.
+    //ParentClass pco(1,2,3);
+    //pco.printSomething();
+
+    //ChildClass cco;
+    //cco.printSomething();
+    //cco.printVars();
+
+    //tut 55 rewatch
 }
